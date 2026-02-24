@@ -35,6 +35,15 @@
 <body>
     <h1>Welcome to Grahani 👋</h1>
     <p>Bye, Ayu</p>
-    <button>Learn More</button>
+    <button onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'});">
+  Learn More
+</button>
 </body>
 </html>
+<section id="about" style="margin-top:100px;">
+  <h2>About Grahani</h2>
+  <p>
+    Grahani mera pyaara gaon hai.  
+    Yeh website main apne gaon ke liye bana raha hoon.
+  </p>
+</section>
